@@ -1,8 +1,8 @@
 import express from "express";
 import handlebars  from "express-handlebars";
-import MongoStore from "connect-mongo";
-import mongoose from "mongoose";
-import passport from "passport";
+// import MongoStore from "connect-mongo";
+// import mongoose from "mongoose";
+// import passport from "passport";
 
 import ViewsRouter from "./router/views.router.js";
 
