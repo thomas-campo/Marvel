@@ -10,11 +10,10 @@ import ViewsRouter from "./router/views.router.js";
 
 import __dirname from './utils.js';
 
-
 const app = express();
 const PORT = 8080;
 app.listen(PORT,()=>console.log(`escuchando en el puerto ${PORT}`));
-mongoose.connect("mongodb+srv://CoderUser:12345@cluster0.eb7exok.mongodb.net/?retryWrites=true&w=majority");
+// mongoose.connect("mongodb+srv://CoderUser:12345@cluster0.eb7exok.mongodb.net/?retryWrites=true&w=majority");
 
 app.use(express.json());
 app.use(express.urlencoded({extended:true}));
