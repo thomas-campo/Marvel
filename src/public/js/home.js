@@ -4,7 +4,8 @@ fetch(API_URL,{
     method: "GET",
     headers: {
         'apikey' : "10bf2248c764fbd7c9ebdc0cbcc9412f80d9aa9e"
-    }
+    },
+    mode: 'no-cors'
 })
     .then(resp => resp.json())
     .then(data =>{
